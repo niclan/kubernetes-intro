@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/grounded-nebula-218907/github-niclan-kubernetes-intro:873c95aa37a1358e3d4660425d1ac13b7f453f4b
         ports:
         - containerPort: 5000
